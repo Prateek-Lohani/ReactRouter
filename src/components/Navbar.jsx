@@ -9,6 +9,7 @@ const Navbar = () => {
         <NavLink style={({isActive})=>({color:isActive?"red":"white"})}  to="/">Home</NavLink>
         <NavLink style={({isActive})=>({color:isActive?"red":"white"})} to="/services">Services</NavLink>
         <NavLink style={({isActive})=>({color:isActive?"red":"white"})} to="/contact">Contact</NavLink>
+        <NavLink style={({isActive})=>({color:isActive?"red":"white"})} to="/users">Users</NavLink>
     </nav>
     <Routing/>
     </>
